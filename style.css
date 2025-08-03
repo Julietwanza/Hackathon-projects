@@ -1,0 +1,107 @@
+/* Reset and base settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body 
+ {
+    background-image: url('images/background.jpg'); /* Path to your image */
+    background-size: cover;          /* Scales to fill the screen */
+    background-position: center;     /* Centers the image */
+    background-repeat: no-repeat;    /* Prevents tiling */
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2.1;
+    background: #0a001b,;
+    color: #ffffff;
+    padding: 20px;
+}
+
+/* Header section */
+header {
+    background: #0a001b;
+    color: #1927e6;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+/* Generic sections */
+section {
+    margin: 30px 0;
+    padding: 20px;
+    background: #0a001b;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #0a001b;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #724596;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #2081e9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #f2f4f5;
+}
